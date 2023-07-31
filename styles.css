@@ -38,6 +38,9 @@ li {
 h1 {
     margin: 0;
 }
+h2 {
+    margin: 0;
+}
 .nav-item {
     cursor: pointer;
 }
@@ -59,12 +62,26 @@ h1 {
 .subtitle{
     padding: 1rem;
 }
+.about {
+    background-color: #b5a26d;
+    font-family: 'Comfortaa', cursive;
+    padding: 1.5rem;
+}
+.text-about > h2 {
+    font-size: 1rem;
+}
+.text-about > p {
+    font-size: 0.8rem;
+}
 /* Mobile */
 @media screen and (min-width: 480px){
     .logo {
         margin-top: 2.5rem;
     }
     .title-principal {
+      }
+      .text-about {
+        text-align: center;
       }
 }
 /* Tablet */
@@ -83,7 +100,7 @@ h1 {
     .title-principal {
         font-size: 1.5rem;
         margin: 3rem;
-      }
+    }
 }
  /* Desktop */
 @media screen and (min-width: 992px){
