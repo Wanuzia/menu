@@ -41,6 +41,9 @@ h1 {
 h2 {
     margin: 0;
 }
+img {
+    width: 100%;
+}
 .nav-item {
     cursor: pointer;
 }
@@ -73,6 +76,35 @@ h2 {
 .text-about > p {
     font-size: 0.8rem;
 }
+#section {
+    background-color: #e4e4e4;
+    text-align: center;
+    padding: 2rem;
+}
+.principal-item {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    padding: 1rem;
+}
+.principal-item-image {
+    width: 7rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+.principal-img {
+    border-radius: 50%
+}
+.principal-item-details {
+    width: fit-content;
+    padding: 1rem;
+}
+.principal-item-price {
+}
+.principal-item-description {
+    font-family: 'Comfortaa', cursive;
+
+}
 /* Mobile */
 @media screen and (min-width: 480px){
     .logo {
@@ -100,6 +132,16 @@ h2 {
     .title-principal {
         font-size: 1.5rem;
         margin: 3rem;
+    }
+    #principais {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .principal-item {
+        display: flex;
+        width: 45%;
+        align-items: center;
+        padding: 1rem;
     }
 }
  /* Desktop */
