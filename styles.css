@@ -81,6 +81,11 @@ img {
     text-align: center;
     padding: 2rem;
 }
+#desserts {
+    background-color: #404a4b;
+    padding: 2rem;
+    color: white;
+}
 .principal-item {
     display: flex;
     width: fit-content;
@@ -134,6 +139,10 @@ img {
         margin: 3rem;
     }
     #principais {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #desserts {
         display: flex;
         flex-wrap: wrap;
     }
