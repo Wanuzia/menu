@@ -44,8 +44,10 @@ h2 {
 img {
     width: 100%;
 }
-.nav-item {
+.nav_item {
     cursor: pointer;
+    text-decoration: none;
+    color: white!important;
 }
 .logo {
     width: 3.5rem;
