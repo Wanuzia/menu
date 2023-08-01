@@ -23,4 +23,4 @@ DIFERENCIAL:
 
 ### Link para o Menu: https://menu-by-wanuzia-elasnatech.netlify.app/
 
-![Captura de Tela 2023-07-30 às 20 44 51](https://github.com/Wanuzia/menu/assets/98324557/8cdbd41a-54a0-4c7e-a3df-45af0ba304a8)
+![ Vegan Menu By Wanuzia - menu-by-wanuzia-elasnatech netlify app](https://github.com/Wanuzia/menu/assets/98324557/f6c90791-cb1f-4e07-aa56-709e143b22f6)
