@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Menu feito com HTML e CSS, onde apresento um menu fictício de um restaurante e padaria vegano. Projeto desenvolvido no Programa Elas na Tech, 2023."
     />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&family=MedievalSharp&family=Righteous&display=swap" rel="stylesheet">
@@ -14,10 +16,10 @@
 <body>
     <header>
         <nav>
-            <ul >
-                <li><a class="nav_item" href="#principais">Pratos Principais</a></li>
-                <li><a class="nav_item" href="#desserts-menu">Sobremesas e Bebidas</a></li>
-                <li><a class="nav_item" href="#contato">Contato</a></li>
+            <ul class="nav-main">
+                <li class="nav-item"><a class="nav_item" href="#menu-principal">Pratos Principais</a></li>
+                <li class="nav-item"><a class="nav_item" href="#desserts-menu">Sobremesas e Bebidas</a></li>
+                <li class="nav-item"><a class="nav_item" href="#contato">Contato</a></li>
             </ul>
         </nav>
         <div class="logo">
@@ -37,9 +39,9 @@
             <p>Acreditamos na bondade da comida de verdade, feita do zero, com produtos orgânicos e integrais. Adquirimos apenas os melhores ingredientes e fabricamos diariamente nossos produtos.</p>
             </div>
         </section>
-        <article class="principal-menu">
+        <article id="menu-principal" class="principal-menu">
             <div id="section">
-                <h1>Pratos Principais</h1>
+                <h1>Pratos Principais <i class="ph ph-fork-knife" style="color: #159d3e;"></i></h1>
             </div>
             <section id="principais">
                 <div class="principal-item">
@@ -87,7 +89,7 @@
         </article>
         <article id="desserts-menu">
             <div id="section">
-                <h1>Sobremesas e Bebidas</h1>
+                <h1>Sobremesas e Bebidas <i class="ph ph-cake" style="color: #159d3e;"></i><i class="ph ph-martini" style="color: #159d3e;"></i></h1>
             </div>
         <section id="desserts">
                 <div class="principal-item">
@@ -152,9 +154,22 @@
                 </div>
         </section>
         </article>
+        <section id="contato" class="contato">
+            <div class="contato-container">
+                    <h2 class="contato-title">Nosso contato</h2>
+                    <p class="contato-adress">Av das Flores 284 St Petersburg DT 302458</p>
+                    <ul class="contatos-list">
+                        <li class="contatos-item"><i class="fab fa-instagram" style="color: #cb1dd7;"></i> Saboroso&Vegano</li>
+                        <li class="contatos-item"><i class="fab fa-facebook" style="color: #0f0db5;"></i> SaborVeg</li>
+                        <li class="contatos-item"><i class="fab fa-whatsapp" style="color: #159d3e;"></i>
+                        Peça também pelo Whatsapp</li>
+                        <li class="contato-adress"> Aberto de terça a domingo das 12h às 23h</li>
+                    </ul>
+            </div>
+        </section>
     </main>
-    <footer id="contato">
-        <p>Feito com ❤️ by Wanuzia Braga</p>
+    <footer id="footer">
+        <p class="footer">Feito com ❤️ by Wanuzia Braga @2023</p>
     </footer>
 </body>
 </html>
