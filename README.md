@@ -1,7 +1,7 @@
 # Menu
 Layout responsivo criado usando apenas html e css, para o Programa Elas na Tech 2023
 
-## Requisitos mínimos:
+## Requisitos:
 
 ● Cardápio será feito SOMENTE em: HTML e CSS.
 
