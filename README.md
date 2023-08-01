@@ -1,5 +1,5 @@
 # Menu
-Projeto criado usando apenas html e css, para o Programa Elas na Tech 2023
+Layout responsivo criado usando apenas html e css, para o Programa Elas na Tech 2023
 
 ## Requisitos mínimos:
 
