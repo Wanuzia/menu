@@ -39,6 +39,7 @@ li {
 .nav-item{
     background: darkgreen;
     text-align: center;
+    border-radius: 30%;
 }
 h1 {
     margin: 0;
@@ -89,7 +90,7 @@ img {
     padding: 2rem;
 }
 #desserts {
-    background-color: #404a4b;
+    background: linear-gradient(#d9d9d9 0%, #404a4b 2% 90%, #d9d9d9 100%);
     padding: 2rem;
     color: white;
 }
